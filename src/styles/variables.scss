@@ -3,22 +3,22 @@ $fw-regular: 400; // для всього тексту
 $fw-medium: 500; // заголовки, назви головні
 $fw-bold: 700; // для кнопок
 
-$line-height-base: 18px; //  проміжок між картками
-$line-height-sm: 14px; //  проміжок для відступів
+$line-height-base: 1.4; //  проміжок між картками
+$line-height-sm: 1.2; //  проміжок для відступів
 
-$color: rgba(6, 11, 53, 1); // хедер
-$color-primary: rgba(0, 172, 220, 1); // колір кнопок
-$color-primary-hover: rgba(0, 150, 200, 1); //  колір активних карток
-$color-border: rgba(243, 243, 243, 1); // колір меж карток
-$color-text-gray: rgba(97, 96, 112, 1); // колір коду
-$color-text-dark: rgba(6, 11, 53, 1); // колір для цін
-$color-white: rgba(255, 255, 255, 1); // колір для фона кнопок
+$color: #060b35; // хедер
+$color-primary: #00acdc; // колір кнопок
+$color-primary-hover: #00a3d1; //  колір активних карток
+$color-border: #f3f3f3; // колір меж карток
+$color-text-gray: #616070; // колір коду
+$color-text-dark: #060d35; // колір для цін
+$color-white: #fff; // колір для фона кнопок
 
 $radius-small: 5px; // маленикий радіус округлення для кнопок
 $space-md: 16px; // для марджин боттом між елементами
 $space-lg: 24px; // великий відступ між блоками
 $gap-xs: 4px; // маленький проміжок між елементами
-$gap-lay: 48px 46px;
+// $gap-lay: 48px 46px;
 $padding: 50px 40px;
 $star-size: 16px; // розмір однієї зірки
 $btn-height: 40px; // висота кнопки

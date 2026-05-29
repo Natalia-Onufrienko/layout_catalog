@@ -1,7 +1,8 @@
 .main {
+  width: 100%;
   display: grid;
   gap: 46px 48px;
-  padding: $padding;
+  padding: 50px 40px;
   justify-content: center;
   grid-template-columns: repeat(1, $card-width);
 
@@ -15,7 +16,5 @@
 
   @media (min-width: 1024px) {
     grid-template-columns: repeat(4, $card-width);
-    max-width: 1024px;
-    margin: 0 auto;
   }
 }
