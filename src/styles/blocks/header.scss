@@ -57,11 +57,11 @@ body {
 
     &:hover,
     &.is-active {
-      color: var(--blue);
+      color: $color-primary;
     }
 
     &.is-active::after {
-      background-color: var(--blue);
+      background-color: $color-primary;
       content: '';
       position: absolute;
       left: 0;
