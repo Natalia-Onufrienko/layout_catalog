@@ -1,16 +1,5 @@
 @import '../variables';
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  box-sizing: border-box;
-  margin: 0;
-  font-family: $font-family;
-  color: $color;
-}
-
 .header {
   background-color: $color-bg-header;
   display: flex;
